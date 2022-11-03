@@ -16,7 +16,7 @@ import React from "react";
 import { useDispatch } from "react-redux";
 import { openSendMessage } from "../../features/mailSlice";
 import "./Sidebar.css";
-import SidebarOption from "./SidebarOption/SIdebarOption";
+import SidebarOption from "./SidebarOption/SidebarOption";
 
 const Sidebar = () => {
   const dispatch = useDispatch();
